@@ -1,0 +1,516 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=desktop-width, initial-scale=1">
+    <style>
+        .footerimg {
+            background-image: url('image/footerimg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!--- header-->
+    <div class="container-fluid">
+        <div class="row bg-success">
+            <div class="col-sm-4">
+                <img src="image/logo.png" style="height:60px;width:150px;" />
+            </div>
+            <div class="col-sm-5 mt-3">
+                <h4 style="color:white;font-size:19px;font-family:serif;"><i
+                        class="fa-solid fa-mobile-screen-button"></i>+91 8764398765 <i
+                        class="fa-solid fa-envelope-circle-check"></i> abc@gmail.com</h4>
+            </div>
+            <div class="col-sm-3 mt-2">
+           <i class="fa-brands  fa-fade fa-square-instagram fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-youtube fa-2x"></i>
+					<i class="fa-brands fa-twitter fa-fade fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-facebook fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-square-whatsapp fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <!--- menu bar-->
+    <div class="container-fluid sticky-top">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        style="ont-size:17px;font-family:serif;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="about.html"
+                                        style="font-size:17px;font-family:serif;">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="visit.html"
+                                        style="font-size:17px;font-family:serif;">Place
+                                        to visit</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="font-size:17px;font-family:serif;">
+                                        Registration
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="touristreg.html">For Tourist</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="guidereg.html">For Guider</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="login.html"
+                                        style="font-size:17px;font-family:serif;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="guide.html"
+                                        style="font-size:17px;font-family:serif;">Local
+                                        Guide</a>
+                                </li>
+                            </ul>
+                              <!--Modal-->
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Any Query
+								</button>
+                        </div>
+                    </div>
+                </nav>
+				</div>
+        </div>
+    </div>
+	
+		<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Your Query</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<input type="email" placeholder="Enter your email" style="width:100%;border:none;border-bottom:1px solid black;"/><br><br>
+									<textarea style="width:100%;border:none;border-bottom:1px solid black;" placeholder="Enter your query"></textarea>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+    <!--row for visit-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-center text-success">The more you explore the more you get</h2>
+                <hr style="border:2px solid #198754;">
+                <h4 class="text-center text-success">Second Page</h4>
+            </div>
+            <div class="col-sm-2"></div>
+        </div><br>
+        <!--row for first visit place-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Nepali Temple</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/40967158441_67ff869a0e_b_20190116143049.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">One of the
+                            oldest temples in the city, Nepali Temple is a 19th century shrine dedicated to Lord Shiva.
+                            It was established by the King of Nepal and is a spitting image of the Pashupatinath Temple
+                            located in Kathmandu. The traditional architecture of the structure made of stone,
+                            terracotta and wood carvings attracts visitors in large numbers.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (51
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;7.1 km (23
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Kedar Ghat</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/6476409869_180158d799_b_20190116143052.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Kedar Ghat is
+                            one of the oldest Ghats in Varanasi and is considered cleaner for bathing in the holy River
+                            Ganga and offering prayers to Lord Shiva at the Kedareshwar Temple. It is often visited for
+                            the beautiful surroundings and the spiritual vibe..</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 28 km (53
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;6.8 km (21
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.8191073575554!2d83.00760387426338!3d25.31028097711309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e21ee940b17%3A0x48600e4fcdfb7b13!2z4KS14KS_4KS24KWN4KS14KSo4KS-4KSlIOCkruCkguCkpuCkv-CksA!5e0!3m2!1shi!2sin!4v1693390777224!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Manmandir Ghat</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/34899197794_ee6a4dae39_b_20190116143114.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Manmandir Ghat
+                            was built by Maharaja Mann Singh in the early 17th century. The Ghat is famous for a palace
+                            built by the Maharaja and an Observatory built in 1710 by Savai Jaisingh II. On the northern
+                            side of the Ghat is a stone balcony from where visitors can get a beautiful view of River
+                            Ganga.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (50
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;6.9 km (22
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.8938994425016!2d83.0063100242633!3d25.307768577215327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e1e04411f67%3A0xa61aef36a11cc83c!2sDashashwamedh%20Ghat!5e0!3m2!1shi!2sin!4v1693391160103!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!--Second row for visiter-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Tulsi Ghat</h3>
+                        <img src="https://avatars.mds.yandex.net/i?id=ac56658240bc94acaef1d9dacc79dae06c87e791-8568171-images-thumbs&n=13"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Located on the
+                            Eastern banks of River Ganga, opposite to Tulsi Ghat, Ramnagar Fort is a stunning historical
+                            monument in Varanasi. It was built by Raja Balwant Singh in 1750 according to the Mughal
+                            style of architecture. Even though the system of Kings was abolished in the region, the
+                            current Maharaja, Pelu Bhiru Singh, resides in the Fort.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 29 km (57
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;7.7 km (24
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Bharat Kala Bhawan</h3>
+                        <img src="https://avatars.mds.yandex.net/i?id=ec274f9d1c11f985eb9b97e3355ad03eda5d8a00-9811020-images-thumbs&n=13"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">An
+                            archaeological and art museum, Bharat Kala Bhavan Museum exhibits a beautiful collection of
+                            sculptures, artefacts, paintings, jewellery, pottery, textiles, etc. ranging between the 1st
+                            and the 15th century. The total artefacts on display are over 100,000 including their rare
+                            collection of miniature paintings and manuscripts.
+                        </h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 44 km (58
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;8.4 km (25
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14430.55861506259!2d82.9819414554199!3d25.282704599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e310b9909e915%3A0xc62cae93ffeb9d2!2z4KS44KSC4KSV4KSfIOCkruCli-CkmuCkqCDgpLngpKjgpYHgpK7gpL7gpKgg4KSu4KSC4KSm4KS_4KSw!5e0!3m2!1shi!2sin!4v1693391836577!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>St. Maryes Church</h3>
+                        <img src="https://avatars.mds.yandex.net/i?id=054b976fd271e0c4aecb5c885e1fe85f545fb189-7570837-images-thumbs&n=13"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">St. Maryês
+                            Church is a 200-year-old architectural marvel, the oldest church in the town and the oldest
+                            standing garrison church in the southern part of Asia. It was established in 1810 by
+                            Reverend George Weatly and was an important church for the European and British community
+                            residing in Varanasi.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 22 km (32
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;3.4 km (12
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <!--THIRD ROW FOR VISITER-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Namo Ghat</h3>
+                        <img src="image/namo.jpg" style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">The Namo Ghat
+                            would have 3 phases (Phase 1 already operational from 2022) and once completed (Phase 2 and
+                            Phase 3 would be completed by end June 2023), it would be the longest ghat – 1.71 km between
+                            Bhaisasur Ghat (Rajghat) & Aadi Keshav Ghat on the confluence of rivers Ganga & Varuna.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 27 km (48
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;7.8 km (18
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Lakhaniya Dari</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/aj_20181220181920.PNG"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Lakhaniya Dari
+                            Waterfall is situated at a distance of around 48 kms from Varanasi in Latifpur in Varanasi.
+                            The waterfalls are a hidden gem away from the din and chaos of the city. Especially popular
+                            among trekkers and adventure enthusiasts, the falls can be reached through a small trek in
+                            the hills.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 83 km (1 h 55
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;54 km (1 hr 27
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Vindham Waterfall</h3>
+                        <img src="https://avatars.mds.yandex.net/i?id=5bcf708c5da65955daefce3d488b0b356b9f8189-8252971-images-thumbs&n=13"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Vindham
+                            Waterfalls is a gorgeous waterfalls in MIrzapur, 90 kms from Varanasi. The waterfalls are
+                            also in close proximity of other popular tourist attractions like Tanda fountains, caves and
+                            temples. The mesmerising waterfall is a famous picnic spot and attracts a large tourist
+                            influx.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 91 km (1 hr 56
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;68 km (1 hr 50
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!--pagination-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="visit.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="visit1.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="visit2.html">3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-5"></div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid footerimg">
+        <div class="row pt-4">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-11">
+                        <h2 style="color:white;font-family:serif;font-weight:bold;">About Company</h2>
+                        <hr style="border:2px solid white;">
+                        <h5 style="color:white;text-align:justify;font-family:serif;">This is the company of local tour
+                            guide in Varanasi which help the tourist to visit best
+                            places with affordable price.We also take care of our customer need and comfort.We give the
+                            best service to our customer.There are lots of foreign tourist whose first choice is us.
+                        </h5><br>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Email"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <h2 style="color:white;font-family:serif;font-weight:bold;">Important Links</h2>
+                <hr style="border:2px solid white;">
+                <ul style="list-style-type:none;color:white;font-weight:bold;">
+                    <a href="index.html" style="text-decoration:none;color:white;">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html" style="text-decoration:none;color:white;">
+                        <li>About Us</li>
+                    </a>
+                    <a href="visit.html" style="text-decoration:none;color:white;">
+                        <li>Places to Visit</li>
+                    </a>
+                    <a href="login.html" style="text-decoration:none;color:white;">
+                        <li>Login</li>
+                    </a>
+                    <a href="guide.html" style="text-decoration:none;color:white;">
+                        <li>Find Local Guide</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+           	<div class="col-sm-3">
+								<h2 style="color:white;font-family:serif;font-weight:bold;">Contact Detail</h2>
+								<hr style="border:2px solid white;">
+								<i class="fa-solid fa-location-dot fa-bounce fa-2x" style="color:white;"></i>
+								<span style="color:white;">C 23/16 Sigra,Varanasi,UP,India </span><br><br>
+								<i class="fa-solid fa-phone fa-shake fa-2x" style="color:white;"></i>
+								<span style="color:white;">+91 8762762762</span><br><br>
+								<i class="fa-solid fa-envelope fa-beat-fade fa-2x" style="color:white;"></i>
+								<span style="color:white;">abc@gmail.com</span><br><br>
+							</div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="color:white;text-align:center;">
+                <h6>&copy; Copyright all right reserved | Developed by student</h6>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
