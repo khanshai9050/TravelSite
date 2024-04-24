@@ -1,0 +1,429 @@
+<html>
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=desktop-width, initial-scale=1">
+    <style>
+        .footerimg {
+            background-image: url('image/footerimg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .checked {
+            color: yellow;
+        }
+
+        .card {
+            box-shadow: 2px 2px 1px 1px gray;
+        }
+
+        .card:hover {
+            transform: scale(1.1, 1.1);
+            color: white;
+            background-color: #198754;
+            font-family: serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--- header--> <div class="container-fluid">
+        <div class="row bg-success">
+            <div class="col-sm-4">
+                <img src="image/logo.png" style="height:60px;width:150px;" />
+            </div>
+            <div class="col-sm-5 mt-3">
+                <h4 style="color:white;font-size:19px;font-family:serif;"><i
+                        class="fa-solid fa-mobile-screen-button"></i>+91 8764398765 <i
+                        class="fa-solid fa-envelope-circle-check"></i> abc@gmail.com</h4>
+            </div>
+            <div class="col-sm-3 mt-2">
+               <i class="fa-brands  fa-fade fa-square-instagram fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-youtube fa-2x"></i>
+					<i class="fa-brands fa-twitter fa-fade fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-facebook fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-square-whatsapp fa-2x"></i>
+            </div>
+        </div>
+        </div>
+        <!--- menu bar-->
+        <div class="container-fluid sticky-top">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        style="ont-size:17px;font-family:serif;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="about.html" style="font-size:17px;font-family:serif;">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="visit.html" style="font-size:17px;font-family:serif;">Place
+                                        to visit</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="font-size:17px;font-family:serif;">
+                                        Registration
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="touristreg.html">For Tourist</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="guidereg.html">For Guider</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="login.html"
+                                        style="font-size:17px;font-family:serif;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="guide.html" style="font-size:17px;font-family:serif;">Local
+                                        Guide</a>
+                                </li>
+                            </ul>
+                             <!--Modal-->
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Any Query
+								</button>
+                        </div>
+                    </div>
+                </nav>
+				</div>
+        </div>
+    </div>
+	
+		<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Your Query</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<input type="email" placeholder="Enter your email" style="width:100%;border:none;border-bottom:1px solid black;"/><br><br>
+									<textarea style="width:100%;border:none;border-bottom:1px solid black;" placeholder="Enter your query"></textarea>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+    <!--Guide row-->
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h2 class="text-center text-success">Best Guide For Your Tour</h2>
+                <hr style="border:2px solid green;">
+            </div>
+            <div class="col-sm-3"></div>
+        </div><br><br>
+        <!--first guide row-->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top"
+                                src="https://indiakellogg.files.wordpress.com/2011/11/phani_pic11.jpg"
+                                style="height:200px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Aman Raghuveer</h5>
+                                <span style="color:red;"><sup>&#8377</sup>1000/h</span>
+                                <p class="card-text">“Jobs fill your pockets, adventures fill your soul.”</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top"
+                                src="https://avatars.mds.yandex.net/i?id=33ee50e3e3c4d41d462702154c731ebfdd8a30e0-5220813-images-thumbs&n=13"
+                                style="height:200px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Saman</h5>
+                                <span style="color:red;"><sup>&#8377</sup>1000/h</span>
+                                <p class="card-text">“Travel is the only thing you buy that makes you richer.”</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top"
+                                src="https://avatars.mds.yandex.net/i?id=8264c68e1209af018ba057145deb6c237e758377-3947589-images-thumbs&n=13"
+                                style="height:200px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Aqsa Waseem</h5>
+                                <span style="color:red;"><sup>&#8377</sup>400/h</span>
+                                <p class="card-text">“Remember that happiness is a way of travel, not a destination.”</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br><br>
+<!--second guide row-->
+
+  <div class="row">
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src="https://avatars.mds.yandex.net/i?id=d75f8b88ec0396a6fb53ca91ccabc076966aac1c-8922087-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Virat Singh</h5>
+                        <span style="color:red;"><sup>&#8377</sup>1200/h</span>
+                        <p class="card-text">“Dare to live the life you’ve always wanted.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src="https://avatars.mds.yandex.net/i?id=ab9bf05b875f9ee19a869b8c6e482c7d9aad6037-9112075-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Wahaj Ali</h5>
+                        <span style="color:red;"><sup>&#8377</sup>1000/h</span>
+                        <p class="card-text">“The journey of a thousand miles begins with a single step.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src="https://avatars.mds.yandex.net/i?id=624b6e950a384b82a791342fd1ae6814bd69315d-10158105-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Naseer Hussain</h5>
+                        <span style="color:red;"><sup>&#8377</sup>400/h</span>
+                        <p class="card-text">“My goal is to run out of pages in my passport.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<!--third guide row-->
+<div class="row">
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src="https://avatars.mds.yandex.net/i?id=30046025a2998b96303a9b221328251590cc7583-8181605-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sanvi Jaiswal</h5>
+                        <span style="color:red;"><sup>&#8377</sup>1500/h</span>
+                        <p class="card-text">“Live life with no excuses, travel with no regret.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src="https://avatars.mds.yandex.net/i?id=41e2d9d5c54a3202cf24da15bd4e07a1fcb007eb-10018920-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniti Soni</h5>
+                        <span style="color:red;"><sup>&#8377</sup>1000/h</span>
+                        <p class="card-text">“Some beautiful paths can’t be discovered without getting lost.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top"
+                        src=https://avatars.mds.yandex.net/i?id=5e82ee81899fbf6a5d1e412cc2c36d6d3832767d-4274889-images-thumbs&n=13"
+                        style="height:200px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Umar Khan</h5>
+                        <span style="color:red;"><sup>&#8377</sup>1500/h</span>
+                        <p class="card-text">“Collect Moments, Not Things.”</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<br><br>
+    <!--Footer-->
+    <div class="container-fluid footerimg">
+        <div class="row pt-4">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-11">
+                        <h2 style="color:white;font-family:serif;font-weight:bold;">About Company</h2>
+                        <hr style="border:2px solid white;">
+                        <h5 style="color:white;text-align:justify;font-family:serif;">This is the company of local tour
+                            guide in Varanasi which help the tourist to visit best
+                            places with affordable price.We also take care of our customer need and comfort.We give the
+                            best service to our customer.There are lots of foreign tourist whose first choice is us.
+                        </h5><br>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Email"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <h2 style="color:white;font-family:serif;font-weight:bold;">Important Links</h2>
+                <hr style="border:2px solid white;">
+                <ul style="list-style-type:none;color:white;font-weight:bold;">
+                    <a href="index.html" style="text-decoration:none;color:white;">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html" style="text-decoration:none;color:white;">
+                        <li>About Us</li>
+                    </a>
+                    <a href="visit.html" style="text-decoration:none;color:white;">
+                        <li>Places to Visit</li>
+                    </a>
+                    <a href="login.html" style="text-decoration:none;color:white;">
+                        <li>Login</li>
+                    </a>
+                    <a href="guide.html" style="text-decoration:none;color:white;">
+                        <li>Find Local Guide</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+          	<div class="col-sm-3">
+								<h2 style="color:white;font-family:serif;font-weight:bold;">Contact Detail</h2>
+								<hr style="border:2px solid white;">
+								<i class="fa-solid fa-location-dot fa-bounce fa-2x" style="color:white;"></i>
+								<span style="color:white;">C 23/16 Sigra,Varanasi,UP,India </span><br><br>
+								<i class="fa-solid fa-phone fa-shake fa-2x" style="color:white;"></i>
+								<span style="color:white;">+91 8762762762</span><br><br>
+								<i class="fa-solid fa-envelope fa-beat-fade fa-2x" style="color:white;"></i>
+								<span style="color:white;">abc@gmail.com</span><br><br>
+							</div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="color:white;text-align:center;">
+                <h6>&copy; Copyright all right reserved | Developed by student</h6>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
