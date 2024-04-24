@@ -1,0 +1,509 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=desktop-width, initial-scale=1">
+    <style>
+        .footerimg {
+            background-image: url('image/footerimg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!--- header--> <div class="container-fluid">
+        <div class="row bg-success">
+            <div class="col-sm-4">
+                <img src="image/logo.png" style="height:60px;width:150px;" />
+            </div>
+            <div class="col-sm-5 mt-3">
+                <h4 style="color:white;font-size:19px;font-family:serif;"><i
+                        class="fa-solid fa-mobile-screen-button"></i>+91 8764398765 <i
+                        class="fa-solid fa-envelope-circle-check"></i> abc@gmail.com</h4>
+            </div>
+            <div class="col-sm-3 mt-2">
+              <i class="fa-brands  fa-fade fa-square-instagram fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-youtube fa-2x"></i>
+					<i class="fa-brands fa-twitter fa-fade fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-facebook fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-square-whatsapp fa-2x"></i>
+            </div>
+        </div>
+        </div>
+        <!--- menu bar-->
+        <div class="container-fluid sticky-top">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        style="ont-size:17px;font-family:serif;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="about.html" style="font-size:17px;font-family:serif;">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="visit.html" style="font-size:17px;font-family:serif;">Place
+                                        to visit</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="font-size:17px;font-family:serif;">
+                                        Registration
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="touristreg.html">For Tourist</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="guidereg.html">For Guider</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="login.html"
+                                        style="font-size:17px;font-family:serif;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="guide.html" style="font-size:17px;font-family:serif;">Local
+                                        Guide</a>
+                                </li>
+                            </ul>
+                             <!--Modal-->
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Any Query
+								</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+	
+		<!-- Modal -->
+		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Your Query</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<input type="email" placeholder="Enter your email" style="width:100%;border:none;border-bottom:1px solid black;"/><br><br>
+									<textarea style="width:100%;border:none;border-bottom:1px solid black;" placeholder="Enter your query"></textarea>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+    <!--row for visit-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-center text-success">The more you explore the more you get</h2>
+                <hr style="border:2px solid #198754;">
+                <h4 class="text-center text-success">First Page</h4>
+            </div>
+            <div class="col-sm-2"></div>
+        </div><br>
+        <!--row for first visit place-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Malviya Bridge</h3>
+                        <img src="image/rajghat2.jpeg" style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Malviya Bridge,
+                            inaugurated in 1887 (originally called The Dufferin Bridge), is a double decker
+                            bridge over the Ganges at Varanasi. It carries rail track on lower deck and road on the
+                            upper deck.
+                            It is one of the major bridges on the Ganges and carries the Grand Trunk Road across the
+                            river.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 28 km (50
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;8.3 km (23
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Kashi Vishwanath</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwurDoKHGpT2hjj6p1WCrwBNkMQJRBWwNDpA&usqp=CAU"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">The Kashi
+                            Vishwanath Temple is a famous Hindu temple dedicated to Lord Shiva. It is located in
+                            Vishwanath Gali, near Varanasi, Uttar Pradesh, India. The temple is one of the most sacred
+                            pilgrimage sites for Shaivites and is among the twelve Jyotirlinga, shrines which are said
+                            to be the most sacred abodes of Shiva.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (51
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;6.9 km (23
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.8191073575554!2d83.00760387426338!3d25.31028097711309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e21ee940b17%3A0x48600e4fcdfb7b13!2z4KS14KS_4KS24KWN4KS14KSo4KS-4KSlIOCkruCkguCkpuCkv-CksA!5e0!3m2!1shi!2sin!4v1693390777224!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Dashashwamedh Ghat</h3>
+                        <img src="https://lh5.googleusercontent.com/p/AF1QipMh1HRJY3z9wMQU49uMU6ipbfkXs1LovhQPDNAh=w408-h273-k-no"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Dashashwamedh
+                            Ghat is a main ghat in Varanasi located on the Ganges River in Uttar Pradesh. It is located
+                            close to Vishwanath Temple. There are two Hindu legends associated with the ghat: according
+                            to one, Brahma created it to welcome Shiva, and in another, Brahma sacrificed ten horses
+                            during Dasa-Ashwamedha yajna.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (50
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;7 km (21
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.8938994425016!2d83.0063100242633!3d25.307768577215327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e1e04411f67%3A0xa61aef36a11cc83c!2sDashashwamedh%20Ghat!5e0!3m2!1shi!2sin!4v1693391160103!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!--Second row for visiter-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Assi Ghat</h3>
+                        <img src="https://lh5.googleusercontent.com/p/AF1QipNo6QlQcmpN0LaQKsXK3IuVnNJQ0e-iESxzVdpg=w426-h240-k-no"
+                            style="width:100%;height:300px;" />
+							<h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Assi Ghat is
+                            the southernmost ghat in Varanasi. It is one of the biggest ghats of Varanasi and most
+                            popular one. To most visitors to Varanasi, it is known for being a place where long-term
+                            foreign students, researchers, and tourists live. Assi Ghat is one of the ghats often
+                            visited for recreation and during festivals.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 29 km (57
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;8.1 km (25
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Sankat Mochan Temple</h3>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg/220px-Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Sankat Mochan
+                            Hanuman Temple is a Hindu temple in Varanasi, Uttar Pradesh, India and is dedicated to the
+                            Hindu God Hanuman. The temple was established by famous Hindu preacher and poet saint Sri
+                            Goswami Tulsidas in the early 16th century and is situated on the banks of the Assi river.
+                        </h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 29 km (59
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;8 km (26
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14430.55861506259!2d82.9819414554199!3d25.282704599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e310b9909e915%3A0xc62cae93ffeb9d2!2z4KS44KSC4KSV4KSfIOCkruCli-CkmuCkqCDgpLngpKjgpYHgpK7gpL7gpKgg4KSu4KSC4KSm4KS_4KSw!5e0!3m2!1shi!2sin!4v1693391836577!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Vishwanath Gali</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/2583473994_20f11dc46c_b_20190116143136.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Vishwanath Gali
+                            is famous for street shopping in Varanasi. A variety of items are sold in the bustling gali
+                            at affordable rates. One can easily find modern or traditional apparel, household items,
+                            home decor items, brass idols of deities, etc. The Gali is also well known for local snacks
+                            and sweets.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (48
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;6.6 km (18
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <!--THIRD ROW FOR VISITER-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>BHU</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/New_Vishwanath_Temple_at_BHU_20171116200457.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Situated within
+                            the campus of the Banaras Hindu University (BHU), this temple is dedicated to Lord Shiva
+                            along with the sculptures of multiple Hindu Gods and Goddesses..</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 36 km (50
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;8.3 km (23
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Kedar Ghat</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/6476409869_180158d799_b_20190116143052.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Kedar Ghat is
+                            one of the oldest Ghats in Varanasi and is considered cleaner for bathing in the holy River
+                            Ganga and offering prayers to Lord Shiva at the Kedareshwar Temple. It is often visited for
+                            the beautiful surroundings and the spiritual vibe.</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 28 km (53
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;6.8 km (20
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-11" style="box-shadow:3px 3px 5px 5px gray;">
+                        <h3>Batuk Bhairav Mandir</h3>
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/BatukBhairavMandir_20200228153809_20200228153839.jpg"
+                            style="width:100%;height:300px;" />
+                        <h6 style="font-family:serif;color:#198754;font-weight:bold;text-align:justify;">Famous for
+                            being a place of worship for Aghoris and Tantriks, Batuk Bhairav Mandir is considered to be
+                            of immense religious importance. The temple is dedicated to Batuk Bhairav who was an
+                            incarnation of Lord Shiva.It is a Hindu Temple</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <i class="fa-solid fa-plane-departure"></i> <span style="color:red;"> 26 km (46
+                                    min)</span><br><br>
+                                <i class="fa-solid fa-train-subway"></i> <span style="color:red;"> &emsp;5.3 km (15
+                                    min)</span>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.4342445162692!2d83.03135077426387!3d25.323205526587373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fa565f187bf%3A0xe84b6f48e1e0d9f0!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkrOCljeCksOCkv-CknA!5e0!3m2!1shi!2sin!4v1693389865236!5m2!1shi!2sin"
+                                    width="100%" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+     <!--pagination-->
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2">
+     <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="visit.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="visit1.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="visit2.html">3</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-sm-5"></div>
+    </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid footerimg">
+        <div class="row pt-4">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-11">
+                        <h2 style="color:white;font-family:serif;font-weight:bold;">About Company</h2>
+                        <hr style="border:2px solid white;">
+                        <h5 style="color:white;text-align:justify;font-family:serif;">This is the company of local tour
+                            guide in Varanasi which help the tourist to visit best
+                            places with affordable price.We also take care of our customer need and comfort.We give the
+                            best service to our customer.There are lots of foreign tourist whose first choice is us.
+                        </h5><br>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Email"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <h2 style="color:white;font-family:serif;font-weight:bold;">Important Links</h2>
+                <hr style="border:2px solid white;">
+                <ul style="list-style-type:none;color:white;font-weight:bold;">
+                    <a href="index.html" style="text-decoration:none;color:white;">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html" style="text-decoration:none;color:white;">
+                        <li>About Us</li>
+                    </a>
+                    <a href="visit.html" style="text-decoration:none;color:white;">
+                        <li>Places to Visit</li>
+                    </a>
+                    <a href="login.html" style="text-decoration:none;color:white;">
+                        <li>Login</li>
+                    </a>
+                    <a href="guide.html" style="text-decoration:none;color:white;">
+                        <li>Find Local Guide</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+          	<div class="col-sm-3">
+								<h2 style="color:white;font-family:serif;font-weight:bold;">Contact Detail</h2>
+								<hr style="border:2px solid white;">
+								<i class="fa-solid fa-location-dot fa-bounce fa-2x" style="color:white;"></i>
+								<span style="color:white;">C 23/16 Sigra,Varanasi,UP,India </span><br><br>
+								<i class="fa-solid fa-phone fa-shake fa-2x" style="color:white;"></i>
+								<span style="color:white;">+91 8762762762</span><br><br>
+								<i class="fa-solid fa-envelope fa-beat-fade fa-2x" style="color:white;"></i>
+								<span style="color:white;">abc@gmail.com</span><br><br>
+							</div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="color:white;text-align:center;">
+                <h6>&copy; Copyright all right reserved | Developed by student</h6>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
