@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=desktop-width, initial-scale=1">
+    <style>
+        /*css for first image*/
+        .heading {
+            position: relative;
+            text-align: left;
+            color: #0d540f;
+            font-weight: bold;
+        }
+
+        .centered {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+        }
+        .footerimg {
+            background-image: url('image/footerimg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body> <div class="container-fluid">
+    <div class="row bg-success">
+        <div class="col-sm-4">
+            <img src="image/logo.png" style="height:60px;width:150px;" />
+        </div>
+        <div class="col-sm-5 mt-3">
+            <h4 style="color:white;font-size:19px;font-family:serif;"><i
+                    class="fa-solid fa-mobile-screen-button"></i>+91 8764398765 <i
+                    class="fa-solid fa-envelope-circle-check"></i> abc@gmail.com</h4>
+        </div>
+        <div class="col-sm-3 mt-2">
+           <i class="fa-brands  fa-fade fa-square-instagram fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-youtube fa-2x"></i>
+					<i class="fa-brands fa-twitter fa-fade fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-facebook fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-square-whatsapp fa-2x"></i>
+        </div>
+    </div>
+    </div>
+    <!--- menu bar-->
+    <div class="container-fluid sticky-top">
+    <div class="row">
+        <div class="col-sm-12 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="ont-size:17px;font-family:serif;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html" style="font-size:17px;font-family:serif;">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="visit.html" style="font-size:17px;font-family:serif;">Place
+                                    to visit</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="font-size:17px;font-family:serif;">
+                                    Registration
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="touristreg.html">For Tourist</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="guidereg.html">For Guider</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html"
+                                    style="font-size:17px;font-family:serif;">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="guide.html" style="font-size:17px;font-family:serif;">Local
+                                    Guide</a>
+                            </li>
+                        </ul>
+  <!--Modal-->
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Any Query
+								</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+	<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Your Query</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<input type="email" placeholder="Enter your email" style="width:100%;border:none;border-bottom:1px solid black;"/><br><br>
+									<textarea style="width:100%;border:none;border-bottom:1px solid black;" placeholder="Enter your query"></textarea>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+    <!--About us image-->
+    <div class="container-fluid">
+        <div class="row heading">
+            <div class="col-sm-12 p-0">
+                <img src="image/kashi2.gif"
+                    style="height:300px;width:100%;" />
+                <div class="centered">
+                    <p style="color:white;font-size:29px;font-family:serif;">Something about Sair-e-banaras</P>
+                    <p style="font-size:15px;color:white;"><a href="index.html"
+                            style="color:white;text-decoration:none;">Home </a>/ AboutUs</p>
+                </div>
+            </div>
+        </div><br>
+        <!--about div-->
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                <img src="image/teamwork.jpg" style="width:100%;" />
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h3 style="font-family:serif;font-weight:bold;">ABOUT US</h3>
+                <hr style="border:2px solid  #198754;"><br>
+                <h5>Sair-e-banaras is a tour guiding company which give best tour guiding services to our customer.We
+                    are the one of the best tour guiding company in Varanasi.We also give flexible pricing model to our
+                    customer by which customers can easily hire our services.</h5>
+                <H5>"Wishing you a safe trip and a wonderful time wherever you go."</H5><br>
+                <a href="visit.html"><button class="btn btn-success btn-lg">Explore Varanasi</button></a>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div><br><hr>
+    <!--counter div-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center text-success p-4">Our Work Counter</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="row">
+                    <center><div class="col-sm-11" style="background-color:#f5f5f5"><br>
+                        <i class="fa fa-coffee fa-2x"></i>
+                        <h2 class="pt-2">200</h2>
+                        <h6>Coffee With Customer</h6><br>
+                    </div></center>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <center><div class="col-sm-11" style="background-color:#f5f5f5"><br>
+                        <i class="fa-solid fa-people-arrows fa-2x"></i>
+                        <h2 class="pt-2">300</h2>
+                        <h6>Tour Guide</h6><br>
+                    </div></center>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <center><div class="col-sm-11" style="background-color:#f5f5f5"><br>
+                        <i class="fa-solid fa-face-smile-wink fa-2x"></i>
+                        <h2 class="pt-2">500</h2>
+                        <h6>Happy Customer</h6><br>
+                    </div></center>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <center><div class="col-sm-11" style="background-color:#f5f5f5"><br>
+                        <i class="fa-solid fa-users fa-2x"></i>
+                        <h2 class="pt-2">200</h2>
+                        <h6>Our Employee</h6><br>
+                    </div></center>
+                </div>
+            </div>
+        </div>
+    </div><br>
+      <!--Footer-->
+      <div class="container-fluid footerimg">
+        <div class="row pt-4">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-11">
+                        <h2 style="color:white;font-family:serif;font-weight:bold;">About Company</h2>
+                        <hr style="border:2px solid white;">
+                        <h5 style="color:white;text-align:justify;font-family:serif;">This is the company of local tour
+                            guide in Varanasi which help the tourist to visit best
+                            places with affordable price.We also take care of our customer need and comfort.We give the
+                            best service to our customer.There are lots of foreign tourist whose first choice is us.
+                        </h5><br>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Email"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <h2 style="color:white;font-family:serif;font-weight:bold;">Important Links</h2>
+                <hr style="border:2px solid white;">
+                <ul style="list-style-type:none;color:white;font-weight:bold;">
+                    <a href="index.html" style="text-decoration:none;color:white;"><li>Home</li></a>
+                    <a href="about.html" style="text-decoration:none;color:white;"><li>About Us</li></a>
+                        <a href="visit.html" style="text-decoration:none;color:white;"><li>Places to Visit</li></a>
+                            <a href="login.html" style="text-decoration:none;color:white;"><li>Login</li></a>
+                                <a href="guide.html" style="text-decoration:none;color:white;"><li>Find Local Guide</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+       	<div class="col-sm-3">
+								<h2 style="color:white;font-family:serif;font-weight:bold;">Contact Detail</h2>
+								<hr style="border:2px solid white;">
+								<i class="fa-solid fa-location-dot fa-bounce fa-2x" style="color:white;"></i>
+								<span style="color:white;">C 23/16 Sigra,Varanasi,UP,India </span><br><br>
+								<i class="fa-solid fa-phone fa-shake fa-2x" style="color:white;"></i>
+								<span style="color:white;">+91 8762762762</span><br><br>
+								<i class="fa-solid fa-envelope fa-beat-fade fa-2x" style="color:white;"></i>
+								<span style="color:white;">abc@gmail.com</span><br><br>
+							</div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="color:white;text-align:center;">
+                <h6>&copy; Copyright all right reserved | Developed by student</h6>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
