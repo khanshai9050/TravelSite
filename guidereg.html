@@ -1,0 +1,353 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=desktop-width, initial-scale=1">
+    <style>
+        /* Style inputs, select elements and textareas */
+input[type=text], select, [type=email], [type=number]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}/* Style inputs, select elements and textareas */
+input[type=text], select, [type=email], [type=number], [type=password]{
+  width: 100%;
+  padding: 12px;
+  border:none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  color:gray;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #198754;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footerimg {
+            background-image: url('image/footerimg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+  <!--- header-->
+  <div class="container-fluid">
+    <div class="row bg-success">
+        <div class="col-sm-4">
+            <img src="image/logo.png" style="height:60px;width:150px;" />
+        </div>
+        <div class="col-sm-5 mt-3">
+            <h4 style="color:white;font-size:19px;font-family:serif;"><i
+                    class="fa-solid fa-mobile-screen-button"></i>+91 8764398765 <i
+                    class="fa-solid fa-envelope-circle-check"></i> abc@gmail.com</h4>
+        </div>
+        <div class="col-sm-3 mt-2">
+           <i class="fa-brands  fa-fade fa-square-instagram fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-youtube fa-2x"></i>
+					<i class="fa-brands fa-twitter fa-fade fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-facebook fa-2x"></i>
+					<i class="fa-brands  fa-fade fa-square-whatsapp fa-2x"></i>
+        </div>
+    </div>
+    </div>
+    <!--- menu bar-->
+    <div class="container-fluid sticky-top">
+    <div class="row">
+        <div class="col-sm-12 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="ont-size:17px;font-family:serif;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html" style="font-size:17px;font-family:serif;">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="visit.html" style="font-size:17px;font-family:serif;">Place
+                                    to visit</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="font-size:17px;font-family:serif;">
+                                    Registration
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="touristreg.html">For Tourist</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="guidereg.html">For Guider</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html"
+                                    style="font-size:17px;font-family:serif;">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="guide.html" style="font-size:17px;font-family:serif;">Local
+                                    Guide</a>
+                            </li>
+                        </ul>
+                        <!--Modal-->
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Any Query
+								</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+	<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Your Query</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<input type="email" placeholder="Enter your email" style="width:100%;border:none;border-bottom:1px solid black;"/><br><br>
+									<textarea style="width:100%;border:none;border-bottom:1px solid black;" placeholder="Enter your query"></textarea>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+<div class="row"">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8" style="box-shadow:2px 2px 2px 2px;">
+    <div class="row pt-5">
+        <div class="col-sm-12" style="background-color:white;">
+       <h2 class="text-center text-success" style="font-family:serif;font-weight:bold;">Tour Guide Registration</h2> 
+       <center><p style="font-size:15px;color:#198754;font-weight:bold;"><a href="index.html"
+        style="color:#198754;text-decoration:none;font-weight:bold;">Home </a>/ Registration</p></center>
+    <hr style="border:2px solid #198754;"/>
+    <div class="container">
+        <form action="#">
+          <div class="row">
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-75">
+              <input type="email" id="lname" name="lastname" placeholder="Your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your Address">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-75">
+              <input type="number" id="lname" name="lastname" placeholder="Your Mobile No.">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-75">
+              <input type="password" id="lname" name="lastname" placeholder="Password">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-2"></div>
+</div>
+        </div>
+    </div>
+</div>
+ <!--Footer-->
+ <div class="container-fluid footerimg">
+  <div class="row pt-4">
+      <div class="col-sm-4">
+          <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-11">
+                  <h2 style="color:white;font-family:serif;font-weight:bold;">About Company</h2>
+                  <hr style="border:2px solid white;">
+                  <h5 style="color:white;text-align:justify;font-family:serif;">This is the company of local tour
+                      guide in Varanasi which help the tourist to visit best
+                      places with affordable price.We also take care of our customer need and comfort.We give the
+                      best service to our customer.There are lots of foreign tourist whose first choice is us.
+                  </h5><br>
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Enter Email"
+                          aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-3">
+          <h2 style="color:white;font-family:serif;font-weight:bold;">Important Links</h2>
+          <hr style="border:2px solid white;">
+          <ul style="list-style-type:none;color:white;font-weight:bold;">
+              <a href="index.html" style="text-decoration:none;color:white;"><li>Home</li></a>
+              <a href="about.html" style="text-decoration:none;color:white;"><li>About Us</li></a>
+                  <a href="visit.html" style="text-decoration:none;color:white;"><li>Places to Visit</li></a>
+                      <a href="login.html" style="text-decoration:none;color:white;"><li>Login</li></a>
+                          <a href="guide.html" style="text-decoration:none;color:white;"><li>Find Local Guide</li></a>
+          </ul>
+      </div>
+      <div class="col-sm-1"></div>
+  	<div class="col-sm-3">
+								<h2 style="color:white;font-family:serif;font-weight:bold;">Contact Detail</h2>
+								<hr style="border:2px solid white;">
+								<i class="fa-solid fa-location-dot fa-bounce fa-2x" style="color:white;"></i>
+								<span style="color:white;">C 23/16 Sigra,Varanasi,UP,India </span><br><br>
+								<i class="fa-solid fa-phone fa-shake fa-2x" style="color:white;"></i>
+								<span style="color:white;">+91 8762762762</span><br><br>
+								<i class="fa-solid fa-envelope fa-beat-fade fa-2x" style="color:white;"></i>
+								<span style="color:white;">abc@gmail.com</span><br><br>
+							</div>
+  </div><br>
+  <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8" style="color:white;text-align:center;">
+          <h6>&copy; Copyright all right reserved | Developed by student</h6>
+      </div>
+      <div class="col-sm-2"></div>
+  </div>
+</div>
+</body>
+
+</html>
